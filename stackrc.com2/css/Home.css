@@ -1,0 +1,75 @@
+ul {
+    padding-top: 40px;
+    margin-left: 400px;
+}
+
+    .Link {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+
+    small {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+a {
+    font-size: 20px;
+    color: rgb(255, 78, 107);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    margin: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(122, 0, 0);
+}
+
+.Main {
+    padding: 60px;
+    margin-right: 400px;
+    margin-left: 400px;
+    color: black;
+    background-color: rgb(248, 240, 240);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Main {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    img {
+        font-size: 50px;
+    }
+
+    a {
+        font-size: 45px;
+    }
+    small {
+        font-size: 45px;
+    }
+    ul {
+        margin-left: 80px;
+    }
+    span {
+        margin: 12px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+}
